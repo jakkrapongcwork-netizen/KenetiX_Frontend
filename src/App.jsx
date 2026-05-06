@@ -1,11 +1,13 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
-import heroImg from "./assets/hero.png";
+// import { useState } from "react";
+// import reactLogo from "./assets/react.svg";
+// import viteLogo from "./assets/vite.svg";
+// import heroImg from "./assets/hero.png";
 import "./App.css";
+import ButtonMain from "./componente/ButtonMain";
+import Secondbutton from "./componente/Secondbutton";
+import HeroButton from "./componente/HeroButton";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -116,6 +118,13 @@ function App() {
       <div className="ticks"></div>
       <section id="spacer"></section>
     </>
+
+    <div className="flex-col">
+      <ButtonMain />
+      <HeroButton />
+      <Secondbutton />
+    </div>
+
   );
 }
 
