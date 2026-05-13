@@ -8,10 +8,10 @@ function App() {
 
   return (
     <>
-      <ButtonMain />
-      <LoginButton />
-      <Section01 />
-      <SignupPage />
+    <ButtonMain />
+    <LoginButton />
+    <Section01 />
+    <SignupPage />
     </>
   );
 }
